@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Exercises</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <figure>
+                <img src="https://i.pinimg.com/736x/dd/5a/31/dd5a31c736d9944eccd18bc9372274ab.jpg" alt="image">
+            </figure>
+            <figcaption>This a greeting</figcaption>
+        </section>
+        <section>
+            <form action="#">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required minlength="3">
+                <br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required
+                    pattern="(?.*\d) (?=.*[a-z]) (?=.*[A-Z]) . [8,]">
+                <br>
+
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+                <br>
+
+                <label for="terms">Accept terms and conditions:</label>
+                <input type="checkbox" id="terms" name="terms" required>
+                <br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>City</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Vincent</td>
+                        <td>22</td>
+                        <td>Baguio</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <figure>
+                <audio controls>
+                    <source src="Bing chilling.mp3" type="audio/mp3">
+                </audio>
+            </figure>
+            <figcaption>John Cena Meme Audio</figcaption>
+            <figure>
+                <video width="720" height="420" controls>
+                    <source src="Drake.mp4" type="video/mp4">
+
+                </video>
+            </figure>
+            <figcaption>Drake's Alter Ego</figcaption>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
