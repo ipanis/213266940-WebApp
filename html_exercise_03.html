@@ -3,32 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Exercises</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="script.js"></script>
+    <title>HTML Exercise 3</title>
 </head>
-
 <body>
     <header>
 
     </header>
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#image">Image</a></li>
+            <li><a href="#forms">Forms</a></li>
+            <li><a href="#table">Table</a></li>
+            <li><a href="#AV">Audio & Video</a></li>
         </ul>
     </nav>
 
     <main>
-        <section>
+        <section id="image">
             <figure>
                 <img src="https://i.pinimg.com/736x/dd/5a/31/dd5a31c736d9944eccd18bc9372274ab.jpg" alt="image">
             </figure>
-            <figcaption>This a greeting</figcaption>
+            <figcaption class="text-center">This a greeting</figcaption>
         </section>
-        <section>
+        <section id="forms">
             <form action="#">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" required minlength="3">
+                <br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+
+                <label for="number">Number</label>
+                <input type="number" id="number" name="number" required>
+                <br>
+
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" value="2024-02-01" required>
                 <br>
 
                 <label for="password">Password:</label>
@@ -50,7 +64,7 @@
                 <button type="submit">Submit</button>
             </form>
         </section>
-        <section>
+        <section id="table">
             <table>
                 <thead>
                     <tr>
@@ -68,20 +82,24 @@
                 </tbody>
             </table>
         </section>
-        <section>
+        <section id="AV">
             <figure>
                 <audio controls>
                     <source src="Bing chilling.mp3" type="audio/mp3">
                 </audio>
             </figure>
-            <figcaption>John Cena Meme Audio</figcaption>
+            <figcaption>John Cena says <cite>Bing Chilling</cite></figcaption>
             <figure>
                 <video width="720" height="420" controls>
                     <source src="Drake.mp4" type="video/mp4">
-
                 </video>
             </figure>
-            <figcaption>Drake's Alter Ego</figcaption>
+            <figcaption><abbr title="Anita Max Wynn">AMW</abbr> Drake's Alter Ego</figcaption>
+        </section>
+        <section>
+            <iframe src="https://www.google.com/maps/embed?pb=..." title="Google Maps" frameborder="0"></iframe>
+            <iframe src="" frameborder="0"></iframe>
+            <blockquote class="twitter-tweet"><p lang="qme" dir="ltr"><a href="https://twitter.com/hashtag/GTR?src=hash&amp;ref_src=twsrc%5Etfw">#GTR</a> <a href="https://t.co/4G3Q8zZwEp">pic.twitter.com/4G3Q8zZwEp</a></p>&mdash; CARVisualizer (@metroTM33) <a href="https://twitter.com/metroTM33/status/1752740658127819246?ref_src=twsrc%5Etfw">January 31, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </section>
     </main>
     <footer>
