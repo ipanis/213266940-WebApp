@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements</title>
+</head>
+<body>
+    <noscript>Server Error</noscript>
+    <nav>
+        <a href="#">User Information</a>
+        <a href="#">Video</a>
+        <a href="#">Image</a>
+        <a href="#">Quote</a>
+    </nav>
+    <p>This is a <code>paragraph</code></p>
+
+<p>Press <kbd>ctrl + X </kbd>to cut</p>
+<br>
+
+<!--Headings-->
+<address>
+    Deliver to: Vincent Panis
+    <br>
+    <mark>Munich, Germany</mark>
+    <br>
+    <small><del>XC421</del></small> <big>IB134</big>
+    </address>
+    <br>
+<center> <p style="font-size: 24px;"><abbr title="Bavarian Motor Works"><dfn></dfn><b>BMW</b></abbr>is a german multinational manufacturer of luxury vehicles and motorcycles.</p></center>
+<q>The cars we drive say alot about us</q>
+<p><s>1000</s> 100 <strong>In Stock</strong></p>
+<p>Opens from <time>12:00AM</time> - <time>12:00PM</time></p>
+
+<br>
+<h6>Echo</h6>
+<h5>Echo</h5>
+<h4>Echo</h4>
+<h3>Echo</h3>
+<h2>Echo</h2>
+<h1>Echo</h1>
+
+<br>
+<u><p><cite>Tokyo Drift</cite> by:Teriyaki Boyz </p></u>
+<blockquote cite="https://genius.com/Genius-romanizations-teriyaki-boyz-tokyo-drift-fast-and-furious-romanized-lyrics">
+    
+    <em>I wonder if you know</em>
+    <i>How they live in Tokyo</i>
+    <strong>If you see me then you mean it</strong>
+    <ins>Then you know you have to go</ins>
+    <big>Fast and furious</big> <sup>(Drift, Drift, Drift)</sup>
+    <var>Fast and furious</var> <sub>(Drift, Drift, Drift)</sub>
+    <wbr>(Reeeeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaapppppppppppeeeeeeeeeaaaaaaaaaaaaaaaaaaaaaaaaaaatttttttttttttttttttttttttttttttttttttttttttttttt)</wbr>
+</blockquote>
+<pre>
+[Verse 1] - <samp>Japanese</samp> (English)
+<bdo dir="rtl">Irasshai, omachidōsama
+    Kensō-mamire kono machi no ensō
+    Damatta mama ichido tsuite oide
+    Sekaijū miryō suru hodo ni gōkana
+    Japan, ichiban
+    Jump around
+    Saa uchira no deban
+    Teriyaki Boyz in the place to be
+    Misete yaru (hai) in VIP</bdo>
+</pre>
+<br>
+<ruby>
+    <rp>( </rp><rt>me encanta codifican)</rt> </rp>
+</ruby>
+<br>
+<form oninput="c.value=parseInt(a.value)-parseInt(b.value)">
+    <label for="email">Email</label>
+    <br>
+    <input type="email" id="email" name="email">
+    <br>
+    <textarea name="letter" id="letter" cols="40" rows="20"></textarea>
+    <br>
+        <table>
+            <caption>Information</caption>
+            <colgroup>
+            <col span="1" style="background-color: rgb(110, 114, 190);">
+            <col span="1" style="background-color: gold;">
+            <col span="1" style="background-color: rgb(184, 96, 144);"> 
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Aaron</td>
+                <td>69</td>
+                <th>Aaron31@gmail.com</th>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Zerhlan</td>
+                <td>70</td>
+                <td>tetabon421@gmail.com</td>
+            </tr>
+        </tfoot>
+        </table>
+    <fieldset>
+        <legend>Cars</legend>
+        <label for="model">Model</label>
+        <select name="model" id="model">
+            <optgroup label="model">
+                <option value="sedan">Sedan</option>
+                <option value="m5 competition">M5 Competition</option>
+                <option value="m2 sedan">M2 Sedan</option>
+            </optgroup>
+            <optgroup label="color">
+                <option value="white diamond">White Diamond</option>
+                <option value="matte black">Matte Black</option>
+                <option value="silver metallic">Silver Metallic</option>                
+            </optgroup>
+        
+        </select>
+        <br>
+        <label for="mags">Mags</label>
+        <input list="mags" name="mags" id="mags">
+        <datalist id="mags">
+            <option value="TE37">
+            <option value="RPF1">
+            <option value="Warthog">
+        </datalist>
+        <br>
+        <label for="horsepower">HorsePower</label>
+        <meter id="horsepower" value="1300" min="1000" max="2000"></meter>
+        <br>
+        <label>Cost:</label>
+        <input type="number" id="a" value="200,000">-
+        <input type="number" id="b" value="30,000">=
+        <output name="c" for="a b"></output> 
+        <br>
+        <label for="constructing">Constructing</label>
+        <progress id="constructing" value="10" max="100">10%</progress>
+
+    </fieldset>
+    <button type="reset">Reset</button>
+</form>
+    <br>
+    <a href="https://live.staticflickr.com/2300/5770321776_3db25c7d8f_b.jpg">Super Jeepney</a>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/D6SMZC0TsoA?si=q1O7LXXC6WuMXHDV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <button onclick="showPicture()">Click Me</button>
+    <template>
+        <br>
+        <img src="suntok.jpg" alt="image" width="720" height="420">
+    </template>
+    <br>
+    <embed src="https://media3.giphy.com/media/69iv77x8e5NMA/giphy.gif?cid=6c09b952xxqigj1qz5u26qqq0pc5kkc3wye95g4gimlszzfs&ep=v1_gifs_search&rid=giphy.gif&ct=g" width="720" height="420">
+        <br>
+        <audio controls>
+            <source src="Bing chilling.mp3" type="audio/mp3">
+        </audio>
+        <br>
+        <object data="Drake.mp4">
+            <param name="autoplay" value="false">
+        </object>
+</body>
+<script>
+    function showPicture(){
+        let template = document.getElementsByTagName("template")[0];
+        let clone = template.content.cloneNode(true);
+        document.body.appendChild(clone);
+    }
+</script>
+</html>
