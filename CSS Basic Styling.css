@@ -1,25 +1,19 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: grey;
-    height: 50%;
-    width: 50%;
-    color: bisque;
-    margin: 0;
-    padding: 10px;
-}
+background-color: lightgoldenrodyellow;
+font-family: cursive;
 
+}
 h1{
-    color: #007bff;
-    margin-top: 20px;
-}
+    margin-bottom: 100px;
+    text-align: end;
 
-ul{
-    list-style-type: none;
-    padding: 0;
 }
-
+p{
+    text-align: center; 
+}
 li{
-    margin-bottom: 5px;
-    color: blue;
-    text-align: initial;
+    padding: 50px;
+    text-align: center;
+    list-style: none;
+    border: 3px solid black;
 }
