@@ -1,0 +1,14 @@
+.header{
+    color: antiquewhite;
+    font-size: medium;
+    
+}
+.navbar{
+    background-color: bisque;
+    padding: 20px;
+}
+
+.main{
+    padding: 20px;
+    flex: 1;
+}
